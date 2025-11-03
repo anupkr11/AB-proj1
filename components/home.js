@@ -1,0 +1,208 @@
+export const home = `
+<div class="relative h-130 mt-10 bg-cover bg-center flex items-center justify-center text-center"
+  style="background-image: url('assets/img1.jpg');">
+  <div class="relative z-10 text-white max-w-2xl px-4 mt-10">
+    <h1 class="text-5xl font-extrabold ">
+      GARDEN CARE <br>
+      <span class="font-bold">is our true <br> passion!</span>
+    </h1>
+
+    <p class="mt-6 text-2xl">
+      SO WHENEVER YOU JUST FEEL YOU NEED <br> A PROFESSIONAL HELPING HAND AT <br> YOUR GARDEN, CALL US UP!
+    </p>
+
+    <button
+      class="mt-8 border-2 border-white text-white px-10 py-3 rounded-full hover:bg-white hover:text-black transition duration-300">
+      FIND OUT MORE
+    </button>
+    <div class="flex justify-center mt-6 space-x-2">
+      <span class="w-3 h-3 bg-white/50 rounded-full"></span>
+      <span class="w-3 h-3 bg-white rounded-full"></span>
+      <span class="w-3 h-3 bg-white rounded-full"></span>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 text-center">
+  <div class="bg-[#e6b800] flex flex-col items-center justify-center p-10 space-y-4">
+    <img src="assets/img4.png" alt="Best Practicing Logo" class="w-16 h-16" />
+    <h3 class="text-xl text-black">BEST PRACTICING</h3>
+  </div>
+
+  <div class="bg-[#f2c200] flex flex-col items-center justify-center p-10 space-y-4">
+    <img src="assets/img5.png" alt="First Pace Logo" class="w-16 h-16" />
+    <h3 class="text-xl text-white">FIRST PACE</h3>
+  </div>
+
+  <div class="bg-[#f5cc33] flex flex-col items-center justify-center p-10 space-y-4">
+    <img src="assets/img6.png" alt="Range of Services Logo" class="w-16 h-16" />
+    <h3 class="text-xl text-white">RANGE OF SERVICES</h3>
+  </div>
+</div>
+
+<div
+  class="relative bg-cover bg-center h-[550px] flex items-center justify-end md:px-50"
+  style="background-image: url('assets/img10.jpg');"
+>
+  <div class=" max-w-lg text-left">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800">Why Energico?</h2>
+    <h3 class="text-lg md:text-xl font-semibold text-gray-500 uppercase mt-2">
+      Welcome to the top rated exterior design company
+    </h3>
+    <p class="text-gray-700 mt-4">
+      After years of practical (both personal and work-related) experience at hand,
+      our team of passionate gardeners is your only option!
+    </p>
+    <button class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-8 rounded-full mt-6 transition">
+      Find Out More
+    </button>
+  </div>
+</div>
+
+
+<div 
+  class="relative bg-cover bg-center h-[450px] flex items-center px-10 md:px-24"
+  style="background-image: url('assets/img11.jpg');"
+>
+  <div class="max-w-xl text-left text-white mt-30">
+    <h1 class="text-5xl font-extrabold">
+      <span class="text-yellow-400">CREATE</span><br>
+      The Perfect Garden!
+    </h1>
+    <button class="mt-8 bg-lime-500 hover:bg-lime-600 text-white py-3 px-10 rounded-full transition">
+      FIND OUT MORE
+    </button>
+  </div>
+</div>
+
+
+<div 
+  class="relative bg-cover bg-center h-[500px] flex items-center justify-start ml-10"
+  style="background-image: url('assets/img12.jpg');"
+>
+  <div class="max-w-xl bg-white p-6 md:p-10">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-700 leading-tight">
+      Perform to the
+      Highest Standards
+    </h2>
+    <p class="text-gray-600 text-lg mt-4">
+      With all kinds of garden design/care, lawn & plants in our range, 
+      we’re your natural choice!
+    </p>
+    <button class="mt-8 border border-gray-400 text-gray-600 font-semibold py-3 px-10 rounded-full hover:bg-gray-800 hover:text-white transition">
+      GET A QUOTE
+    </button>
+  </div>
+</div>
+
+
+
+<div class="py-16 bg-gray-50">
+  <div class="text-center mb-12">
+    <h2 class="text-4xl font-extrabold text-gray-600">Our Advantages</h2>
+</div>
+
+<div class="max-w-10xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 text-center ">
+    
+    <div>
+      <img src="assets/img13.png" alt="Creative Ideas" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">CREATIVE IDEAS</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        Serving everyone from household owners to hotels and office, we make sure to provide a truly full-cycle range of exterior
+        design, landscaping, and exterior
+        remodeling services!
+      </p>
+    </div>
+
+    <div>
+      <img src="assets/img14.png" alt="Decorating" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">DECORATING</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        It does not really matter is it the Christmas time of the year or not, priming your house with
+        some decorative elements or masonry should not and is not a seasonal fad!
+      </p>
+    </div>
+
+    <div>
+      <img src="assets/img15.png" alt="Garden Design" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">GARDEN DESIGN</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        Did you ever consider giving your house exterior or your landscape a unique look,
+        implementing some superb design ideas you’ve seen before in the magazines?
+      </p>
+    </div>
+
+    <div>
+      <img src="assets/img16.png" alt="Expert Advice" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">EXPERT ADVICE</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        Regardless of how crazy your exterior idea is, our team of design-and-build experts will
+        easily turn it into reality! This is true for projects of any scale!
+      </p>
+    </div>
+
+    <div>
+      <img src="assets/img17.png" alt="Friendly Prices" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">FRIENDLY PRICES</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        Having so much to offer, we also would love to give you the best pricing on all of our
+        services! This means that as compared to our market rivals, our pricing is indeed fair and
+        friendly!
+      </p>
+    </div>
+
+    <div>
+      <img src="assets/img18.png" alt="Softscapes" class="w-14 h-14 mx-auto mb-4">
+      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">SOFTSCAPES</h3>
+      <p class="text-gray-600 w-70 ml-23 text-xl">
+        Softscaping is the total opposite for the hardscaping in that it is neither as longlasting as the hard structure,
+        nor it is made of materials that are durable.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="py-20 bg-white text-center">
+  <h2 class="text-4xl font-bold text-gray-800 mb-12">
+    See the Tips & Tricks for Gardeners on Our Blog!
+  </h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto">
+    <div class="text-left">
+      <img
+        src="assets/img21.jpg"
+        alt="Garden Pots"
+        class="rounded-lg mb-6 shadow-md hover:shadow-lg transition"
+      />
+      <h3 class="font-bold text-gray-600 uppercase mb-3 text-lg">
+        THE LESS CHEMICALS YOU USE, THE BETTER!
+      </h3>
+      <p class="text-gray-600">
+        So, we guess that if you're reading this blog entry now, you are an avid gardener yourself, right? 
+        Which in turn means that as we're talking about the ways to compost your garden, the more you 
+        should be listening.
+      </p>
+    </div>
+
+    <div class="text-left">
+      <img
+        src="assets/img20.jpg"
+        alt="Lawn Mower"
+        class="rounded-lg mb-6 shadow-md hover:shadow-lg transition"
+      />
+      <h3 class="font-bold text-gray-600 uppercase mb-3 text-lg">
+        THE LESS CHEMICALS YOU USE, THE BETTER!
+      </h3>
+      <p class="text-gray-600">
+        So, we guess that if you're reading this blog entry now, you are an avid gardener yourself, right? 
+        Which in turn means that as we're talking about the ways to compost your garden, the more you 
+        should be listening.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+`;
