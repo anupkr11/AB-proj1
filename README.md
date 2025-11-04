@@ -2,6 +2,7 @@ Energico Web is a fully responsive static website built using HTML and Tailwind 
 
 This project includes three main pages — Home, About Us, and Contact Us — all optimized for mobile, tablet, and desktop screens.
 
+<br />
 🌟 Features
 
 🌿 Fully Responsive using Tailwind CSS
@@ -14,6 +15,8 @@ This project includes three main pages — Home, About Us, and Contact Us — al
 
 💚 Reusable UI structure for easy updates and expansion
 
+<br />
+
 Energico_Web/
 
 ── index.html        # Homepage
@@ -24,6 +27,8 @@ Energico_Web/
    
 ── README.md         # Project documentation
 
+<br />
+
 🧠 Tech Stack
 HTML5 – Markup structure
 
@@ -32,6 +37,8 @@ Tailwind CSS (CDN) – For responsive design
 Font Awesome – For social media icons
 
 Google Fonts (Montserrat) – Typography
+
+<br />
 
 🚀 How to Run the Project
 Clone the repository
@@ -52,15 +59,17 @@ open index.html
 (or just drag and drop the file into your browser)
 
 
+<br />
+
 📸 Preview
 Add screenshots or live demo link here once deployed:
 
 
-<img width="1593" height="919" alt="image" src="https://github.com/user-attachments/assets/9b7307af-e187-4cab-8aa7-f3ffd80e0fb2" />
-<img width="1468" height="916" alt="image" src="https://github.com/user-attachments/assets/536e22ee-8c50-4284-91b1-3b51aa3274f4" />
-<img width="1253" height="869" alt="image" src="https://github.com/user-attachments/assets/673fc343-10fe-4d7e-8129-4647d21cfaef" />
-<img width="1466" height="897" alt="image" src="https://github.com/user-attachments/assets/5ac7567a-2c4f-4b6a-97dc-08c5b56d57de" />
-<img width="1436" height="831" alt="image" src="https://github.com/user-attachments/assets/c0d43f71-2f21-490c-9adc-51e4e9219b53" />
+<img width="1593" height="919" alt="image" src="https://github.com/user-attachments/assets/9b7307af-e187-4cab-8aa7-f3ffd80e0fb2" /><br />
+<img width="1468" height="916" alt="image" src="https://github.com/user-attachments/assets/536e22ee-8c50-4284-91b1-3b51aa3274f4" /><br />
+<img width="1253" height="869" alt="image" src="https://github.com/user-attachments/assets/673fc343-10fe-4d7e-8129-4647d21cfaef" /><br />
+<img width="1466" height="897" alt="image" src="https://github.com/user-attachments/assets/5ac7567a-2c4f-4b6a-97dc-08c5b56d57de" /><br />
+<img width="1436" height="831" alt="image" src="https://github.com/user-attachments/assets/c0d43f71-2f21-490c-9adc-51e4e9219b53" /><br />
 
 
 
