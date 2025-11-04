@@ -6,143 +6,141 @@
   <title>Energico_Web</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" rel="stylesheet"></script>
   <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-/>
-<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   />
 </head>
-<body>
-    <header class="bg-[#68B234] text-white w-full">
-  <div class="w-full flex justify-between items-center py-4 px-8">
-    <div class="text-base md:text-lg">
-      Call Us Now: 555 376 7872
-    </div>
-    <div>
-      <div class="flex space-x-6 text-3xl">
-        <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="hover:text-blue-400 transition-transform transform hover:scale-110">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="hover:text-sky-400 transition-transform transform hover:scale-110">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://pinterest.com" target="_blank" aria-label="Pinterest" class="hover:text-red-400 transition-transform transform hover:scale-110">
-          <i class="fab fa-pinterest-p"></i>
-        </a>
-        <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:text-pink-400 transition-transform transform hover:scale-110">
-          <i class="fab fa-instagram"></i>
-        </a>
+<body class="font-[Montserrat]">
+
+  <header class="bg-[#68B234] text-white w-full">
+    <div class="w-full flex flex-col sm:flex-row justify-between items-center py-4 px-6 sm:px-8 text-center sm:text-left">
+      <div class="text-sm sm:text-base md:text-lg mb-2 sm:mb-0">
+        Call Us Now: 555 376 7872
+      </div>
+      <div>
+        <div class="flex justify-center sm:justify-end space-x-4 sm:space-x-6 text-2xl sm:text-3xl">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="hover:text-blue-400 transition-transform transform hover:scale-110">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="hover:text-sky-400 transition-transform transform hover:scale-110">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://pinterest.com" target="_blank" aria-label="Pinterest" class="hover:text-red-400 transition-transform transform hover:scale-110">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:text-pink-400 transition-transform transform hover:scale-110">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
       </div>
     </div>
+  </header>
+
+  <div class="text-center mt-8 sm:mt-10">
+    <img class="block mx-auto w-40 sm:w-56 md:w-72 lg:w-96" src="assets/logo.png" alt="logo" />
+    <nav class="space-x-6 sm:space-x-12 md:space-x-16 lg:space-x-20 mt-6 sm:mt-10 text-base sm:text-xl md:text-2xl">
+      <a href="index.html" class="hover:text-yellow-400 hover:underline">HOME</a>
+      <a href="aboutUs.html" class="hover:text-yellow-400">ABOUT</a>
+      <a href="contactUs.html" class="text-yellow-400 underline hover:text-yellow-400">CONTACT US</a>
+    </nav>
   </div>
-</header>
 
-<div>
-   <img class = "block mx-auto mt-10 w-96" src="assets/logo.png" alt="logo" class="w-full h-auto"/>
-      <nav class="space-x-20 text-center mt-12 text-2xl">
-          <a href="index.html" class="hover:text-yellow-400 hover:underline">HOME</a>
-          <a href="aboutUs.html" class="hover:text-yellow-400">ABOUT</a>
-          <a href="contactUs.html" class="text-yellow-400 underline hover:text-yellow-400">CONTACT US</a>
-      </nav>
-<div/>
-
-<div class="bg-[#68B234] text-center text-white py-30 mt-10">
-  <h1 class="text-4xl font-extrabold mb-3">CONTACT US</h1>
-  <p class="text-xl">
-    <span class="text-white hover:text-white cursor-pointer transition">Home</span>
-    <span class="mx-2 text-white">/</span>
-    <span class="text-yellow-400">About Us</span>
-  </p>
-</div>
-
-
-<div class="grid md:grid-cols-2 gap-0">
-  <div class="bg-white p-12 md:p-20">
-    <h2 class="text-4xl font-extrabold text-gray-800 mb-2">Get in touch</h2>
-    <p class="text-[#68B234] font-semibold mb-12 text-2xl">
-      ENERGICO - AGRICULTURE & GARDEN CARE
+  <div class="bg-[#68B234] text-center text-white py-16 sm:py-24 mt-10">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3">CONTACT US</h1>
+    <p class="text-base sm:text-lg md:text-xl">
+      <span class="text-white hover:text-white cursor-pointer transition">Home</span>
+      <span class="mx-2 text-white">/</span>
+      <span class="text-yellow-400">About Us</span>
     </p>
+  </div>
 
-    <div class="mb-12">
-      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">Toronto Office</h3>
-      <p class="text-gray-600 t">
-        8949 Kenamar Drive, suite 101 Boston,<br>
-        Ma 92121 Phone. 555.376.7872 Fax.<br>
-        555.376.7873
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+    <!-- Left Section -->
+    <div class="bg-white p-8 sm:p-12 md:p-16 lg:p-20">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-2">Get in touch</h2>
+      <p class="text-[#68B234] font-semibold mb-10 sm:mb-12 text-xl sm:text-2xl">
+        ENERGICO - AGRICULTURE & GARDEN CARE
+      </p>
+
+      <div class="mb-10 sm:mb-12">
+        <h3 class="text-xl sm:text-2xl font-semibold text-[#68B234] mb-2">Toronto Office</h3>
+        <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+          8949 Kenamar Drive, suite 101 Boston,<br>
+          Ma 92121 Phone. 555.376.7872 Fax.<br>
+          555.376.7873
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xl sm:text-2xl font-semibold text-[#68B234] mb-2">
+          HQ Office (Boston, MA, USA)
+        </h3>
+        <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+          8949 Kenamar Drive, suite 101 Boston,<br>
+          Ma 92121 Phone. 555.376.7872 Fax.<br>
+          555.376.7873
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-gray-50 p-8 sm:p-12 md:p-16 lg:p-20">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-2">Write to us</h2>
+      <p class="text-gray-600 mb-8 sm:mb-10 uppercase text-sm sm:text-base">
+        GET A PRICING QUOTE FOR A RESIDENTIAL OR BUSINESS SOLAR PANEL INSTALLATION
+      </p>
+
+      <form class="space-y-4 sm:space-y-5">
+        <input type="text" placeholder="Your name" class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+
+        <input type="email" placeholder="Your e-mail" class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+
+        <input type="text" placeholder="Phone" class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+
+        <select class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+          <option>Do you need a residential or commercial system?</option>
+        </select>
+
+        <input type="text" placeholder="Street Address" class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+
+        <select class="w-full border border-[#68B234] rounded-full px-5 sm:px-6 py-2 sm:py-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
+          <option>What is your average monthly electricity bill?</option>
+        </select>
+
+        <button type="submit" class="bg-[#68B234] text-white font-semibold px-8 sm:px-10 py-2 sm:py-3 rounded-full hover:bg-[#5ca32f] transition">
+          REQUEST QUOTE
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="bg-black text-white py-10">
+    <div class="flex flex-col items-center space-y-4 px-4 text-center">
+      <img src="assets/footer-logo.png" alt="Logo" class="w-24 sm:w-28 md:w-32">
+
+      <div class="flex space-x-4 sm:space-x-6 mt-4">
+        <a href="#" class="text-white hover:text-green-500 transition">
+          <i class="fab fa-facebook-f text-xl sm:text-2xl"></i>
+        </a>
+        <a href="#" class="text-white hover:text-green-500 transition">
+          <i class="fab fa-twitter text-xl sm:text-2xl"></i>
+        </a>
+        <a href="#" class="text-white hover:text-green-500 transition">
+          <i class="fab fa-pinterest text-xl sm:text-2xl"></i>
+        </a>
+        <a href="#" class="text-white hover:text-green-500 transition">
+          <i class="fab fa-instagram text-xl sm:text-2xl"></i>
+        </a>
+      </div>
+
+      <p class="text-xs sm:text-sm text-gray-400 mt-4">
+        Energico © 2022 · Privacy Policy
       </p>
     </div>
-
-    <div>
-      <h3 class="text-2xl font-semibold text-[#68B234] mb-2">
-        HQ Office (Boston, MA, USA)
-      </h3>
-      <p class="text-gray-600">
-        8949 Kenamar Drive, suite 101 Boston,<br>
-        Ma 92121 Phone. 555.376.7872 Fax.<br>
-        555.376.7873
-      </p>
-    </div>
-  </div>
-
-  <div class="bg-gray-50 p-12 md:p-20">
-    <h2 class="text-4xl font-extrabold text-gray-800 mb-2">Write to us</h2>
-    <p class="text-gray-600 mb-10 uppercase ">
-      GET A PRICING QUOTE FOR A RESIDENTIAL OR BUSINESS SOLAR PANEL INSTALLATION
-    </p>
-
-    <form class="space-y-5">
-      <input type="text" placeholder="Your name" class="w-full border border-[#68B234] rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-
-      <input type="email" placeholder="Your e-mail" class="w-full border border-[#68B234] rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-
-      <input type="text" placeholder="Phone" class="w-full border border-[#68B234] rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-
-      <select class="w-full border border-[#68B234] rounded-full px-6 py-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-        <option>Do you need a residential or commercial system?</option>
-      </select>
-
-      <input type="text" placeholder="Street Address" class="w-full border border-[#68B234] rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-
-      <select class="w-full border border-[#68B234] rounded-full px-6 py-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#68B234]">
-        <option>What is your average monthly electricity bill?</option>
-      </select>
-
-      <button type="submit" class="bg-[#68B234] text-white font-semibold px-10 py-3 rounded-full hover:bg-[#68B234] transition">
-        REQUEST QUOTE
-      </button>
-    </form>
-  </div>
-</div>
-
-
-<footer class="bg-black text-white py-10">
-  <div class="flex flex-col items-center space-y-4">
-
-    <img src="assets/footer-logo.png" alt="Logo" class="w-32">
-
-    <div class="flex space-x-6 mt-4">
-      <a href="#" class="text-white hover:text-green-500 transition">
-        <i class="fab fa-facebook-f text-2xl"></i>
-      </a>
-      <a href="#" class="text-white hover:text-green-500 transition">
-        <i class="fab fa-twitter text-2xl"></i>
-      </a>
-      <a href="#" class="text-white hover:text-green-500 transition">
-        <i class="fab fa-pinterest text-2xl"></i>
-      </a>
-      <a href="#" class="text-white hover:text-green-500 transition">
-        <i class="fab fa-instagram text-2xl"></i>
-      </a>
-    </div>
-
-    <p class="text-sm text-gray-400 mt-4">
-      Energico © 2022 · Privacy Policy</a>
-    </p>
-  </div>
-</footer>
-
+  </footer>
 
 </body>
 </html>
